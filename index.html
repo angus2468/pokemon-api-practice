@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Pokemon Practice</title>
+  </head>
+  <body>
+    <h1>Search for a pokemon!</h1>
+    <form id="form">
+      <label for="query">Enter your search term:</label>
+      <input id="query" name="query" type="text" placeholder="Pokemon name" />
+      <button type="submit">Search!</button>
+    </form>
+    <button id="randomPokemon">Random Pokemon!</button>
+    <div id="information">
+      <p id="name">Name:</p>
+      <p id="pokemonType">Type:</p>
+      <!-- <p>Image:</p> -->
+      <img src="" alt="" id="pokemonImage" />
+      <p>Listen to the cry!</p>
+      <audio
+        src="https://soundfxcenter.com/music/television-theme-songs/8d82b5_Pokemon_Theme_Song.mp3"
+        id="pokemonCry"
+        controls
+      ></audio>
+    </div>
+  </body>
+</html>
